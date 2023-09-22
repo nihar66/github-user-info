@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import InputForm from './InputForm';
 import UserInfoCard from './UserInfoCard';
+import 'tailwindcss/tailwind.css';
 
 function App() {
 const [user, setUser] = useState(null);
